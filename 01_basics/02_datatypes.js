@@ -14,6 +14,7 @@ console.log("hitesh")
 let name="HITESH"
 let age=18
 let isLoggedIn= false
+let state;
 
 
 //number -> 2 to the power of 53
@@ -22,3 +23,10 @@ let isLoggedIn= false
 //boolean-> true/false
 //null=>standalone value/empty value
 //undefined=>value created but not defined
+//symbol
+//object
+
+
+console.log(typeof "hitesh")
+console.log(typeof null)
+console.log(typeof undefined)

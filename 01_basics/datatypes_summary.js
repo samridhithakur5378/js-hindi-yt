@@ -37,3 +37,31 @@ console.log("hello world");
 
 
 console.log(typeof myFunction)
+
+
+
+//**********************************memory*************************************************
+//stack (primitive datatypes)and heap(non-primitive datatypes)
+
+
+let youTubename= "sam"
+
+let anotherName=youTubename
+anotherName="chaiaurcode"
+
+console.log(youTubename)
+console.log(anotherName)
+
+
+let userOne={
+
+   email:"user@google.com",
+   upi:"abc@123"
+}
+
+let userTwo= userOne
+
+userTwo.email="hi@gmail.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)

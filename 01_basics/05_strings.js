@@ -38,3 +38,4 @@ console.log(url.includes('hitesh'))//tells if the string conatins taht specific 
 console.log(gameName.split('-'))//here we split on the bases of dash
 
 
+//interview questins from here
